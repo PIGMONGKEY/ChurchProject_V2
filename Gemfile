@@ -29,7 +29,7 @@ gem "caxlsx" # Exporting to Excel # 엑셀 생성
 gem "flag_shih_tzu" # 비트 오퍼레이터
 
 group :development, :test do
-  gem "rspec-rails", "~> 6" # rspec test tool
+  gem "rspec-rails", "~> 7" # rspec test tool
   gem "guard" # detect file change and exec test auto
   gem "guard-rspec"
   gem "active_record_query_trace" # 쿼리 실행 파일 표시
