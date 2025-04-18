@@ -699,3 +699,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/ruby,rails,macos,windows,linux,java,git,rubymine,rubymine+all,rubymine+iml,jetbrains,jetbrains+iml,jetbrains+all,web
+
+/config/credentials/development.key
+
+/config/credentials/test.key
