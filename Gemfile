@@ -22,7 +22,7 @@ gem 'ahoy_matey' # 방문자 행동 추적 및 이벤트 기록을 위한 트래
 gem 'request_store' # 요청(Request) 범위 내에서 글로벌 데이터를 저장할 수 있는 스레드-세이프한 저장소
 gem 'lograge', require: false # 로그 출력 간소화 - 평이화
 gem 'caxlsx' # Exporting to Excel # 엑셀 생성
-gem 'roo', '~> 2.8.0' # Excel Read # 액셀 읽기
+gem 'roo', '~> 2.10.1' # Excel Read # 액셀 읽기
 gem 'flag_shih_tzu' # 비트 오퍼레이터
 
 group :development, :test do
