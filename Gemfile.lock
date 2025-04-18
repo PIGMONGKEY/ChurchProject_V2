@@ -93,6 +93,8 @@ GEM
     bigdecimal (3.1.9)
     bootsnap (1.18.4)
       msgpack (~> 1.2)
+    brakeman (7.0.2)
+      racc
     builder (3.3.0)
     bullet (8.0.3)
       activesupport (>= 3.0.0)
@@ -550,6 +552,7 @@ DEPENDENCIES
   annotate
   awesome_print
   bootsnap
+  brakeman
   bullet
   caxlsx
   database_cleaner-active_record
