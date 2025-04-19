@@ -3,7 +3,7 @@ module ChurchProject
     if @credentials
       @credentials
     elsif Rails.env.development? || Rails.env.test?
-      @credentials = YAML.load(Rails.application.credentials.read) || {}
+      @credentials = Rails.application.credentials || {}
     else
       {}
     end

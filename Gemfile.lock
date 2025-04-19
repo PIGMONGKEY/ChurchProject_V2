@@ -586,6 +586,7 @@ DEPENDENCIES
   puma (>= 5.0)
   pundit
   rails (~> 8.0.2)
+  redis
   request_store
   rspec-rails (~> 7)
   rubocop
