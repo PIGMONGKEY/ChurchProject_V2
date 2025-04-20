@@ -27,6 +27,7 @@ gem "lograge", require: false # 로그 출력 간소화 - 평이화
 gem "caxlsx" # Exporting to Excel # 엑셀 생성
 # gem 'roo', '~> 2.8.0' # Excel Read # 액셀 읽기
 gem "flag_shih_tzu" # 비트 오퍼레이터
+gem "redis"
 
 group :development, :test do
   gem "rspec-rails", "~> 7" # rspec test tool
